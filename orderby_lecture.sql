@@ -4,7 +4,7 @@ select * from employees order by last_name desc;
 
 select * from employees order by hire_date desc;
 
-select * from employees order by last_name desc, first_name
+# select * from employees order by last_name desc, first_name
 
 select * from salaries order by salary desc;
 
