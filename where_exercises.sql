@@ -26,3 +26,8 @@ select * from employees where hire_date like '199%';
 select *
 from employees
 where birth_date like '%-12-25';
+
+# 6.
+select *
+from employees
+where last_name like '%q%';
