@@ -52,3 +52,9 @@ select *
 from employees
 where last_name like 'E%'
    or last_name like '%E';
+
+# 4.
+select *
+from employees
+where last_name like 'E%'
+  and last_name like '%E';
