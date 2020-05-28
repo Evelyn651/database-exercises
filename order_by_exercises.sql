@@ -12,6 +12,11 @@ select *
 from employees
 where last_name like 'E%';
 
+select *
+from employees
+where last_name like '%e%'
+order by emp_no;
+
 # 4.
 select *
 from employees
