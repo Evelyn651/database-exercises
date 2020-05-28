@@ -5,7 +5,7 @@ show tables;
 select *
 from employees
 where first_name in ('Irena', 'Vidya', 'Maya')
-order by first_name, last_name;
+order by last_name, first_name;
 
 # 3.
 select *
